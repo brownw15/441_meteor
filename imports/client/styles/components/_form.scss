@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+}
+
+.form__input {
+  border: 1px solid #7511AD;
+  padding: 1.3em;
+  flex-grow: 1;
+}
+
+.forms{
+  input{
+    margin:auto;
+    padding: 5px;
+  }
+}

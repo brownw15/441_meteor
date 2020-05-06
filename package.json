@@ -1,0 +1,19 @@
+{
+  "name": "FakeBook",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "icons": "svgr --replace-attr-values <#FFF=fill> --icon -d imports/ui/icons/js imports/ui/icons/svg/user_box.svg"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.6",
+    "jquery": "^3.4.1",
+    "meteor-node-stubs": "^1.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^5.4.0"
+  }
+}

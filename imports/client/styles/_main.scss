@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: grey;
+  font-size: 1.6em;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+}
+input, button, select {
+  font-size: 1.4em;
+}
+h1 {  
+  font-weight: 300;
+  font-size: 3em;
+  font-family: Anton, Arial, sans-serif;
+}
+h2{
+  font-weight: 200;
+  font-size: 2.3em;
+  font-family: Anton, Arial, sans-serif;
+}
+
+@import './components/_masthead.scss';// ./ indicates to start in current folder
+@import './components/_wrapper.scss';
+@import './components/_singleItem.scss';
+@import './components/_footer.scss';
+@import './components/_button.scss';
+@import './components/_form.scss';
+@import './components/_post.scss';
+@import './components/_Variables.scss';

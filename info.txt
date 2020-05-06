@@ -1,0 +1,5 @@
+Project info as follows:
+Project uses MongoDB along with meteor to create collections (One created in api directory, users collections created from command line with meteor)
+Styled with Sass (Files aren't compiled to css)
+Logging into the site to make posts operates normally and posts are created with unique email/id values attached to them, this can be viewed in the console but could not get them to render in the client. 
+Logout button is also situational, I suspect it has to do with how meteor makes use of localStore for collections or how react handles strings with unallowed characters(the @ symbol).  
